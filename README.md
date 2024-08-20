@@ -7,15 +7,14 @@ go install github.com/akavel/rsrc@latest
 
 Run rsrc:
 ```shell
-$GOPATH/bin/rsrc -arch 386 -ico icon.ico
-$GOPATH/bin/rsrc -arch amd64 -ico icon.ico
+$GOPATH/bin/rsrc -ico iconname.ico
 ```
 It will create a new .syso file every time. Store these files inside your main package.
 
 OPTIONS:
   * -arch string
 
-    	architecture of output file - one of: 386, amd64, [EXPERIMENTAL: arm, arm64] (default "amd64")
+    	architecture of output file - one of: 386, amd64, [EXPERIMENTAL: arm, arm64] (default "amd64") ex: $GOPATH/bin/rsrc -arch amd64 -ico icon.ico
 
   * -ico string
     	
