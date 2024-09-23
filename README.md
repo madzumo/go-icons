@@ -1,4 +1,4 @@
-# Generate .syso files (icon on .exe)
+# Generate .syso files
 
 Install rsrc:
 ```shell
