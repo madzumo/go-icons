@@ -5,11 +5,10 @@ Install rsrc:
 go install github.com/akavel/rsrc@latest
 ```
 
-Run rsrc:
+Run rsrc to create the syso file:
 ```shell
 $GOPATH/bin/rsrc -ico iconname.ico
 ```
-It will create a new .syso file every time. Store these files inside your main package.
 
 OPTIONS:
   * -arch string
