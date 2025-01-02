@@ -26,3 +26,5 @@ OPTIONS:
   * -o string
     	
         name of output COFF (.res or .syso) file; if set to empty, will default to 'rsrc_windows_{arch}.syso'
+
+Add to app directory
