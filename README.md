@@ -27,4 +27,4 @@ OPTIONS:
     	
         name of output COFF (.res or .syso) file; if set to empty, will default to 'rsrc_windows_{arch}.syso'
 
-Add to app directory
+Add to directory where you run BUILD app
